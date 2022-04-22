@@ -46,7 +46,7 @@ fixture `Account Creation - Export`
     .click(Selector('#root > div > header > div.card-component-module_card-component__1NA2E.page-content.header-menu-component_header-card__3KF4p.card-component-module_padding__51wm7.card-component-module_white__2avgM > div > div.header-menu-component_nav-bar__1Ur-s.row > div > div.column.header-menu-component_icon-button__2n1dO.header-menu-component_account__1fdJM'))
 
     //logout
-    .click(Selector('#aLogout'))
+    //.click(Selector('#aLogout'))
     //test homepage
-    .expect(Selector('#root > div > div.page-content-wrapper > div > div > div:nth-child(3) > div > div > div > p.styled-text-component-module_styled-text-component__1Pric.styled-text-component-module_text-size-paragraph__2PEy7.styled-text-component-module_red__RD_RH.styled-text-component-module_mobile-red__1fxte').textContent).contains('RS Export Solutions')
+    //.expect(Selector('#root > div > div.page-content-wrapper > div > div > div:nth-child(3) > div > div > div > p.styled-text-component-module_styled-text-component__1Pric.styled-text-component-module_text-size-paragraph__2PEy7.styled-text-component-module_red__RD_RH.styled-text-component-module_mobile-red__1fxte').textContent).contains('RS Export Solutions')
 });

@@ -48,5 +48,5 @@ fixture `Account Creation - Cyprus`
     .wait(2000)
     //logout
 
-    .click(Selector('#aLogout'))
+    //.click(Selector('#aLogout'))
 });

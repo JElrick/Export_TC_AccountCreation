@@ -48,5 +48,5 @@ fixture `Account Creation - Greece`
     .wait(2000)
     //logout
 
-    .click(Selector('#aLogout'))
+    //.click(Selector('#aLogout'))
 });

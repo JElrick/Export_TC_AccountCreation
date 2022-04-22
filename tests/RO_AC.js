@@ -49,5 +49,5 @@ fixture `Account Creation - Romania`
     .wait(2000)
 
     //logout
-    .click(Selector('#aLogout'))
+    //.click(Selector('#aLogout'))
 });

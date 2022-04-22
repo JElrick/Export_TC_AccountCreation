@@ -61,5 +61,5 @@ fixture `Account Creation - India`
 
     //logout
     .wait(2000)
-    .click(Selector('#aLogout'))
+    //.click(Selector('#aLogout'))
 });
